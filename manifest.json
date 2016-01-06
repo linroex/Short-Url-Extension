@@ -10,11 +10,11 @@
         "default_popup": "popup.html"
     },
     "permissions": [
-        "http://ntust.me/"
+        "http://ntust.me/",
+        "tabs"
     ],
     "web_accessible_resources": [
         "images/icon.png",
         "js/jquery-2.1.4.min.js"
-    ],
-    "content_security_policy": "script-src 'unsafe-eval' https://maps.googleapis.com/ https://maps.gstatic.com http://ntust.me; object-src 'self'"
+    ]
 }
