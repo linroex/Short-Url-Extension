@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-    "name": "Shorten Url",
+    "name": "NTUST Shorten URL",
     "description": "短網址外掛",
     "version": "0.0.1",
 
@@ -10,7 +10,7 @@
         "default_popup": "popup.html"
     },
     "permissions": [
-        "http://ntust.me/",
+        "https://ntust.me/",
         "tabs"
     ],
     "web_accessible_resources": [
